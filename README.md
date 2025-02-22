@@ -15,6 +15,8 @@ This project analyzes job postings to uncover insights into the employment lands
 ---
 
 ## 📂 Dataset
+#### Job Postings in Saudi Arabia
+from kaggle: https://www.kaggle.com/datasets/moayadalkhozayem/job-postings-in-saudi-arabia
 The dataset includes key columns:
 - `job_title`, `job_date`, `job_desc`, `job_tasks`
 - `comp_name`, `comp_size`, `qualif`, `region`, `city`
