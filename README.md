@@ -5,6 +5,9 @@ This project analyzes job postings from the Jadarat dataset to uncover insights 
 
 ---
 
+---
+## 🔗 Streamlit app
+https://usecase-5-eutgn5gkld728cpcwmdvs9.streamlit.app/
 ## 📊 Key Features
 - 📈 **Job Trends Over Time** – Track job posting patterns.
 - 💼 **Most Common Job Titles** – Identify high-demand roles.
@@ -15,9 +18,6 @@ This project analyzes job postings from the Jadarat dataset to uncover insights 
 ---
 
 ## 📂 Dataset
-#### Job Postings in Saudi Arabia
-from kaggle: https://www.kaggle.com/datasets/moayadalkhozayem/job-postings-in-saudi-arabia
-
 The dataset includes key columns:
 - `job_title`, `job_date`, `job_desc`, `job_tasks`
 - `comp_name`, `comp_size`, `qualif`, `region`, `city`
@@ -46,36 +46,27 @@ If using **Jupyter Notebook**, make sure to enable inline plotting:
 ---
 
 ## 📌 Sample Output
-### 📊 Most Common Job Titles
-```python
-top_jobs = employment_landscape['job_title'].value_counts().head(10)
-sns.barplot(x=top_jobs.values, y=top_jobs.index, palette="coolwarm")
-plt.xlabel("عدد الوظائف")
-plt.ylabel("المسمى الوظيفي")
-plt.title("أكثر 10 وظائف مطلوبة")
-plt.show()
-```
-✅ **Output:**  
-![Most Common Job Titles](sample_output/job_titles.png)
+### 📊 Gender Distribution in Job Postinngs
+
+![image](https://github.com/user-attachments/assets/4fe2b8f3-a040-4f7d-ba9a-2bd6c471397f)
 
 ---
 
 ### 📈 Job Trends Over Time
-```python
-jobs_over_time = employment_landscape.groupby('date').size()
-plt.plot(jobs_over_time.index, jobs_over_time.values, marker="o", color="red")
-plt.xlabel("التاريخ")
-plt.ylabel("عدد الوظائف")
-plt.title("توزيع الوظائف عبر الوقت")
-plt.show()
-```
-✅ **Output:**  
-![Job Trends](sample_output/job_trends.png)
+![image](https://github.com/user-attachments/assets/feb1e734-83a8-4e4f-af89-d6dd573dc588)
 
 ---
+### 📊 Most popular jobs
 
+![image](https://github.com/user-attachments/assets/fba2c5b6-3138-4944-972d-381ecfa29370)
+
+---
 ## 🔗 Future Improvements
 - **Predictive analysis** using machine learning.
+- **Interactive dashboards** for real-time job insights.
+
+🚀 **Contributions & feedback are welcome!**
+
 - **Interactive dashboards** for real-time job insights.
 
 🚀 **Contributions & feedback are welcome!**
