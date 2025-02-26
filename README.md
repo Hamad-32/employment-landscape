@@ -1,7 +1,7 @@
-# 📌 Jobs Employment Landscape
+# 📌 Employment Landscape
 
 ## 📖 Overview
-This project analyzes job postings to uncover insights into the employment landscape. It explores trends such as **most in-demand jobs, salary distributions, required skills, and language preferences** using data visualization techniques.
+This project analyzes job postings from the Jadarat dataset to uncover insights into the employment landscape. It explores trends such as the most in-demand jobs, salary distributions, required skills, and language preferences using data visualization techniques.
 
 ---
 
@@ -17,6 +17,7 @@ This project analyzes job postings to uncover insights into the employment lands
 ## 📂 Dataset
 #### Job Postings in Saudi Arabia
 from kaggle: https://www.kaggle.com/datasets/moayadalkhozayem/job-postings-in-saudi-arabia
+
 The dataset includes key columns:
 - `job_title`, `job_date`, `job_desc`, `job_tasks`
 - `comp_name`, `comp_size`, `qualif`, `region`, `city`
